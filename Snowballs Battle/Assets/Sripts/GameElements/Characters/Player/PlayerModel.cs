@@ -13,11 +13,6 @@ namespace Assets.Sripts.GameElements.Characters.Player
         public override void DestroyElement()
         {
             throw new NotImplementedException();
-        }        
-
-        public override void MoveElement()
-        {
-            throw new NotImplementedException();
         }
 
         public override void Attack()
