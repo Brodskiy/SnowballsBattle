@@ -298,6 +298,16 @@ Assets\Sripts\GameElements\Characters\LiveData.cs
 Assets\Sripts\GameElements\Characters\Player\PlayerModel.cs
 Assets\Sripts\GameElements\GameElement.cs
 Assets\Sripts\GameElements\Shells\ShellModel.cs
+Assets\Sripts\GameElements\Shells\Snowboll\SnowbollModel.cs
 Assets\Sripts\IInitialization.cs
+Assets\Sripts\IocContainer\IocContainer.cs
+Assets\Sripts\PoolObject\EEnemyLevel.cs
+Assets\Sripts\PoolObject\EGameElements.cs
+Assets\Sripts\PoolObject\EnemyData.cs
+Assets\Sripts\PoolObject\GameElementContainer\GameElementContainer.cs
+Assets\Sripts\PoolObject\GameElementContainer\GameElementData.cs
+Assets\Sripts\PoolObject\GameSettingsContainer\GameSettingsContainer.cs
+Assets\Sripts\PoolObject\GameSettingsContainer\SettingsData.cs
+Assets\Sripts\PoolObject\PoolObject.cs
 Assets\Sripts\SceneInfo\IScreenInfo.cs
 Assets\Sripts\SceneInfo\ScreenInfo.cs
