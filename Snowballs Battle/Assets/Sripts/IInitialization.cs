@@ -1,6 +1,6 @@
 ﻿namespace Assets.Sripts
 {
-    public interface IInitialization
+    public interface IInitialize
     {
         void Initialization();
     }

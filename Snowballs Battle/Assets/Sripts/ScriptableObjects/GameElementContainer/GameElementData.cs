@@ -1,7 +1,7 @@
 ﻿using Assets.Srripts.GameElements;
 using System;
 
-namespace Assets.Sripts.PoolObject.GameElementContainer
+namespace Assets.Sripts.ScriptableObjects.GameElementContainer
 {
     [Serializable]
     class GameElementData

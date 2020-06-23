@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 440f637df9eeb2841aa55d329de90d81, type: 3}
   m_Name: Settings
   m_EditorClassIdentifier: 
-  Settings:
+  _settingsData:
     SpeedEnemy: 10
     SpeedPlayer: 10
     PointsToWin: 20
@@ -24,4 +24,4 @@ MonoBehaviour:
     - EnemyLevel: 2
       PointsForHit: 3
     CoolDownPlayer: 2
-    CoolDownEnemy: 0
+    CoolDownEnemy: 5
