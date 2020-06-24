@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.Srripts.SceneInfo
+namespace Assets.Scripts.SceneInfo
 {
     public class ScreenInfo : MonoBehaviour, IScreenInfo
     {
@@ -16,6 +16,6 @@ namespace Assets.Srripts.SceneInfo
             MinPosition = _mainCamera.ScreenToWorldPoint(new Vector3(0, 0));
 
             ScreenSize = MaxPosition - MinPosition;
-        }        
+        }
     }
 }

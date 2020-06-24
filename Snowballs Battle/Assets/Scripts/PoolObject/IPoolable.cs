@@ -1,7 +1,7 @@
-﻿using Assets.Sripts.ScriptableObjects;
-using Assets.Srripts.GameElements;
+﻿using Assets.Scripts.GameElements;
+using Assets.Scripts.ScriptableObjects;
 
-namespace Assets.Sripts.PoolObject
+namespace Assets.Scripts.PoolObject
 {
     public interface IPoolable : IInitialize
     {

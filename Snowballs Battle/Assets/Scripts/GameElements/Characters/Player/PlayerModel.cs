@@ -1,10 +1,9 @@
-﻿using Assets.Srripts.GameElements.Characters;
-using System;
+﻿using System;
 
-namespace Assets.Sripts.GameElements.Characters.Player
+namespace Assets.Scripts.GameElements.Characters.Player
 {
     public class PlayerModel : CharacterModel
-    {        
+    {
         public override void Initialization()
         {
             throw new NotImplementedException();

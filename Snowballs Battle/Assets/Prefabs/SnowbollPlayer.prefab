@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6131569172051465175}
   - component: {fileID: 2705623223666413466}
   - component: {fileID: 2968619718731416870}
-  - component: {fileID: -5054503737289476502}
+  - component: {fileID: 522237445815758249}
   m_Layer: 0
   m_Name: SnowbollPlayer
   m_TagString: Untagged
@@ -130,7 +130,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &-5054503737289476502
+--- !u!114 &522237445815758249
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6131569172051465172}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cab1a6f5fbe79594faa4d2fd04d8dc22, type: 3}
+  m_Script: {fileID: 11500000, guid: ee1da17114b75cc429c217330061a798, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _rigidbody2D: {fileID: 2968619718731416870}

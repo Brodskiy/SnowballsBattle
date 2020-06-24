@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Assets.Sripts.ScriptableObjects.GameSettingsContainer
+namespace Assets.Scripts.ScriptableObjects.GameSettingsContainer
 {
     [Serializable]
     class SettingsData

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Assets.Sripts.ScriptableObjects.GameElementContainer
+namespace Assets.Scripts.ScriptableObjects.GameElementContainer
 {
     [Serializable, CreateAssetMenu(fileName = "Data", menuName = "ScriptableObjects/GameElementContainer")]
     class GameElementContainer : ScriptableObject

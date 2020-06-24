@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.Srripts.GameElements
+namespace Assets.Scripts.GameElements
 {
     public abstract class GameElement : MonoBehaviour
     {
@@ -8,6 +8,6 @@ namespace Assets.Srripts.GameElements
         public bool IsActive { get; protected set; }
 
         public abstract void Initialization();
-        public abstract void DestroyElement();    
+        public abstract void DestroyElement();
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace Assets.Sripts.ScriptableObjects
+﻿namespace Assets.Scripts.ScriptableObjects
 {
     public enum EGameElements
     {

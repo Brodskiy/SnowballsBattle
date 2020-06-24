@@ -1,7 +1,6 @@
-﻿using Assets.Sripts;
-using UnityEngine;
+﻿using UnityEngine;
 
-namespace Assets.Srripts.SceneInfo
+namespace Assets.Scripts.SceneInfo
 {
     public interface IScreenInfo : IInitialize
     {

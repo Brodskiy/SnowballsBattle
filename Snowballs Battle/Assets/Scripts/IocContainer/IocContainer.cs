@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.Sripts.IocContainer
+namespace Assets.Scripts.IocContainer
 {
     public class IocContainer : MonoBehaviour
     {

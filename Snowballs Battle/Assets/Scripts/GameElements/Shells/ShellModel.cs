@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
-using Assets.Srripts.GameElements;
 
-namespace Assets.Sripts.GameElements.Shells
+namespace Assets.Scripts.GameElements.Shells
 {
     public abstract class ShellModel : GameElement
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Assets.Sripts.ScriptableObjects.GameSettingsContainer
+namespace Assets.Scripts.ScriptableObjects.GameSettingsContainer
 {
     [Serializable, CreateAssetMenu(fileName = "Data", menuName = "ScriptableObjects/GameSettingsContainer")]
     class GameSettingsContainer : ScriptableObject

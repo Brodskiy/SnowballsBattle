@@ -1,7 +1,7 @@
-﻿using Assets.Srripts.GameElements;
+﻿using Assets.Scripts.GameElements;
 using System;
 
-namespace Assets.Sripts.ScriptableObjects.GameElementContainer
+namespace Assets.Scripts.ScriptableObjects.GameElementContainer
 {
     [Serializable]
     class GameElementData

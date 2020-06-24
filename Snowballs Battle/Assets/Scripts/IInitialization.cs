@@ -1,4 +1,4 @@
-﻿namespace Assets.Sripts
+﻿namespace Assets.Scripts
 {
     public interface IInitialize
     {

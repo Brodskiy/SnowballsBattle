@@ -1,4 +1,4 @@
-﻿namespace Assets.Srripts.GameElements.Characters
+﻿namespace Assets.Scripts.GameElements.Characters
 {
     public class LiveData
     {

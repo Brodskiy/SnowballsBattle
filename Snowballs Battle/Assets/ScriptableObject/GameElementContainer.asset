@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 463a88da1aeae82408c34317b2b06535, type: 3}
+  m_Name: GameElementContainer
+  m_EditorClassIdentifier: 
+  _gameElementData:
+  - NameGameElement: 0
+    ElementPrefab:
+    - {fileID: 1242835845197814419, guid: 2e640f4e3b6894441bb6c23ff7405e0e, type: 3}
+    CountElement: 1
+  - NameGameElement: 1
+    ElementPrefab:
+    - {fileID: 1510463338760971730, guid: ca2a86576734f7844b34af502454b0e6, type: 3}
+    - {fileID: 2118433352455887552, guid: 0887fe555930d264cae3ac388e00496e, type: 3}
+    - {fileID: 2292838051478290929, guid: 1dc56119e5ab21b498e07ff5a302b700, type: 3}
+    CountElement: 2
+  - NameGameElement: 2
+    ElementPrefab:
+    - {fileID: 522237445815758249, guid: a0e9553ac645db94abdc96688c3ab0f1, type: 3}
+    - {fileID: 5315199768112437756, guid: 7770de75e33c7554b8222d127c9a5d3c, type: 3}
+    CountElement: 3

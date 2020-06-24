@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.Sripts.GameElements.Shells.Snowboll
+namespace Assets.Scripts.GameElements.Shells.Snowboll
 {
     public class SnowbollPlayer : ShellModel
     {
@@ -12,6 +12,6 @@ namespace Assets.Sripts.GameElements.Shells.Snowboll
         public override void DestroyElement()
         {
             gameObject.SetActive(false);
-        }        
+        }
     }
 }
