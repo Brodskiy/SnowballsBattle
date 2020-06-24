@@ -1,17 +1,17 @@
-﻿using System;
+﻿using UnityEngine;
 
 namespace Assets.Sripts.GameElements.Shells.Snowboll
 {
-    public class SnowbollModel : ShellModel
-    {
+    public class SnowbollEnemy : ShellModel
+    { 
         public override void Initialization()
         {
-            throw new NotImplementedException();
+            _rigidbody2D.bodyType = RigidbodyType2D.Static;
         }
 
         public override void DestroyElement()
         {
-            throw new NotImplementedException();
-        }        
+            gameObject.SetActive(false);
+        }
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace Assets.Sripts.PoolObject
+﻿namespace Assets.Sripts.ScriptableObjects
 {
     public enum EGameElements
     {

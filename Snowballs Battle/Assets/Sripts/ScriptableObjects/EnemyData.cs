@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Assets.Sripts.PoolObject
+namespace Assets.Sripts.ScriptableObjects
 {
     [Serializable]
     public class EnemyData

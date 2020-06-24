@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 463a88da1aeae82408c34317b2b06535, type: 3}
   m_Name: GameElements
   m_EditorClassIdentifier: 
-  GameElementInfo:
+  _gameElementData:
   - NameGameElement: 0
     ElementPrefab:
     - {fileID: -3866534888311597611, guid: 2e640f4e3b6894441bb6c23ff7405e0e, type: 3}
@@ -24,3 +24,4 @@ MonoBehaviour:
   - NameGameElement: 2
     ElementPrefab:
     - {fileID: 230165988625087067, guid: a0e9553ac645db94abdc96688c3ab0f1, type: 3}
+    - {fileID: -8341853284481622607, guid: 464865b8bce6cac4e90dd8f63f6d9d8e, type: 3}

@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Assets.Srripts.SceneInfo
 {
-    public interface IScreenInfo : IInitialization
+    public interface IScreenInfo : IInitialize
     {
         Vector3 MaxPosition { get; }
         Vector3 MinPosition { get; }

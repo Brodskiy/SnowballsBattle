@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Assets.Sripts.PoolObject.GameSettingsContainer
+namespace Assets.Sripts.ScriptableObjects.GameSettingsContainer
 {
     [Serializable]
     class SettingsData

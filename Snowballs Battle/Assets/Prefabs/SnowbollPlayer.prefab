@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2968619718731416870}
   - component: {fileID: 230165988625087067}
   m_Layer: 0
-  m_Name: Snowboll
+  m_Name: SnowbollPlayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -142,3 +142,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee1da17114b75cc429c217330061a798, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _rigidbody2D: {fileID: 2968619718731416870}
