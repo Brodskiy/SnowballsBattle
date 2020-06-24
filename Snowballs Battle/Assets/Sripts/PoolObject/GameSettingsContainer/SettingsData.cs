@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Assets.Sripts.PoolObject.GameSettingsContainer
 {
@@ -8,7 +9,7 @@ namespace Assets.Sripts.PoolObject.GameSettingsContainer
         public float SpeedEnemy;
         public float SpeedPlayer;
         public int PointsToWin;
-        public EnemyData[] PointsForHit;
+        public List<EnemyData> PointsForHit;
         public float CoolDownPlayer;
         public float CoolDownEnemy;
     }
