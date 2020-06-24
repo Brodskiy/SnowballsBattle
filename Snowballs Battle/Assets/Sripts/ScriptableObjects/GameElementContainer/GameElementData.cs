@@ -8,5 +8,6 @@ namespace Assets.Sripts.ScriptableObjects.GameElementContainer
     {
         public EGameElements NameGameElement;
         public GameElement[] ElementPrefab;
+        public int CountElement;
     }
 }

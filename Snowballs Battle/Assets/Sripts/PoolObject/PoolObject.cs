@@ -1,4 +1,6 @@
-﻿using Assets.Srripts.GameElements;
+﻿using Assets.Sripts.ScriptableObjects;
+using Assets.Sripts.ScriptableObjects.GameElementContainer;
+using Assets.Srripts.GameElements;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,32 +8,41 @@ namespace Assets.Sripts.PoolObject
 {
     public class PoolObject : MonoBehaviour, IPoolable
     {
-        [SerializeField] private GameElement _gameElement;
-        [SerializeField] private int _numberToPool;
+        [SerializeField] private GameElementContainer _gameElementContainer;
 
-        public List<GameElement> AllGameElement { get; private set; }
+        public Dictionary<EGameElements, GameElement> AllGameElement { get; private set; }
 
         public void Initialization()
         {
-            AllGameElement = new List<GameElement>();
+            AllGameElement = new Dictionary<EGameElements, GameElement>();
 
-            for (int i = 0; i < _numberToPool; i++)
-            {
-                var gameElement = GameObject.Instantiate(_gameElement) as GameElement;
-                AllGameElement.Add(gameElement);
-            }
+            SetAllGameElement();
         }
-
-        public GameElement GetGameElement()
+        
+        public GameElement GetGameElement(EGameElements eGameElements)
         {
             foreach (var element in AllGameElement)
             {
-                if(element.IsActive == false)
+                if(element.Key == eGameElements)
                 {
-                    return element;
+                    if (element.Value.IsActive == false)
+                    {
+                        return element.Value;
+                    }                    
                 }
             }
             return null;
-        }        
+        }
+
+        private void SetAllGameElement()
+        {
+            foreach (var gameElement in _gameElementContainer.GetGameElementInfo)
+            {
+                for (int i = 0; i < gameElement.CountElement; i++)
+                {
+                    AllGameElement.Add(gameElement.NameGameElement, gameElement.ElementPrefab[i]);
+                }                
+            }
+        }
     }
 }
