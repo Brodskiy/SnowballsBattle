@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6131569172051465175}
   - component: {fileID: 2705623223666413466}
   - component: {fileID: 2968619718731416870}
-  - component: {fileID: -8341853284481622607}
+  - component: {fileID: 5573122690056929772}
   m_Layer: 0
   m_Name: SnowbollEnemy
   m_TagString: Untagged
@@ -130,7 +130,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &-8341853284481622607
+--- !u!114 &5573122690056929772
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6131569172051465172}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed0474d4d1c166e479d3e30ba6b0c369, type: 3}
+  m_Script: {fileID: 11500000, guid: 90a7d444f4dcbd1458f8b1eca36fd673, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _rigidbody2D: {fileID: 2968619718731416870}
