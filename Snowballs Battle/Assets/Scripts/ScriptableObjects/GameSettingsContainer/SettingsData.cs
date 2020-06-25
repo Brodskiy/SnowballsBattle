@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace Assets.Scripts.ScriptableObjects.GameSettingsContainer
 {
     [Serializable]
-    class SettingsData
+    public class SettingsData
     {
         public float SpeedEnemy;
         public float SpeedPlayer;

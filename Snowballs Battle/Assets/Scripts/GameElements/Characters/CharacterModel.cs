@@ -1,9 +1,17 @@
-﻿namespace Assets.Scripts.GameElements.Characters
+﻿using Assets.Scripts.GameElements.Shells;
+using UnityEngine;
+
+namespace Assets.Scripts.GameElements.Characters
 {
-    public abstract class CharacterModel : GameElement
+    public class CharacterModel : GameElement
     {
+        [SerializeField] protected ShellModel _shellModel;
+
         public LiveData Lives { get; protected set; }
 
-        public abstract void Attack();
+        public void Attack()
+        {
+            _shellModel.Initialization();
+        }
     }
 }

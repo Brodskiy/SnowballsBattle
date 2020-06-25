@@ -1,14 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Assets.Scripts.ScriptableObjects;
+using Assets.Scripts.ScriptableObjects.GameSettingsContainer;
+using UnityEngine;
 
 namespace Assets.Scripts.Settings
 {
-    public class SettingsGameModel
+    public class SettingsGameModel : MonoBehaviour, IGameSettings
     {
-        public EGameStatus GameState { get; private set; }
+        [SerializeField] private GameSettingsContainer _settingsData;
 
-    }
+        public IGameSettingsContain GameSettings => _settingsData;
+
+        public EnemyData GetEnemyInfo(EEnemyLevel enemyLevel)
+        {
+            foreach (var points in GameSettings.GetSettingsData.PointsForHit)
+            {
+                var targetEnemy = GameSettings.GetSettingsData.PointsForHit.Find(item => item.EnemyLevel == enemyLevel);
+                return targetEnemy;
+            }
+            return null;
+        }      
+    }    
 }
